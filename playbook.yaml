@@ -1,0 +1,10 @@
+- name: Some random stuff
+  hosts: localhost
+  tasks:
+    - name: Debug
+      ansible.builtin.debug:
+        msg: "Hello world"
+
+    - name: Print facts
+      ansible.builtin.debug:
+        var: ansible_facts
