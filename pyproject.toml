@@ -1,0 +1,14 @@
+[project]
+name = "learning-ansible-molecule"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = [
+    "ansible-core>=2.20.0",
+    "ansible-lint>=25.11.1",
+    "molecule>=25.11.1",
+]
+
+[dependency-groups]
+dev = [
+    "ansible-creator>=25.11.0",
+]
