@@ -3,7 +3,6 @@ name = "learning-ansible-molecule"
 version = "0.1.0"
 requires-python = ">=3.13"
 dependencies = [
-    "ansible-builder>=3.1.1",
     "ansible-core>=2.20.0",
     "ansible-lint>=25.11.1",
     "ansible-navigator>=25.11.0",
